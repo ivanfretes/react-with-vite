@@ -15,9 +15,3 @@ jobs:
         with:
           node-version: 16.x
       - run: npm install
-      - run: npm run lint
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: dist
